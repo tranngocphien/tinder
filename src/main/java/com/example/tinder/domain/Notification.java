@@ -11,7 +11,7 @@ import javax.persistence.Id;
 @Entity
 public class Notification {
     @Id
-    private int notification_id;
+    private long notification_id;
 
     @Enumerated(EnumType.STRING)
     private ActivityType type ;
